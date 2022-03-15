@@ -20,7 +20,7 @@ void setup() {
   display.clear();
 
   WiFi.mode(WIFI_STA);
-  WiFi.begin("gabin", "1110012814");
+  WiFi.begin("SSID", "PASSWORD");
   display.drawString(0, 0, "WiFi Connecting");
   display.display();
   int i = 0;
